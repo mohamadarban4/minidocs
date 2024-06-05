@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 * {
-  font-family: "Futura-Bold";
+  font-family:"Reddit Mono";
 }
 ::selection {
   color: greenyellow;
