@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font-family: "Futura-Bold";
+}
+::selection {
+  color: greenyellow;
+}
+/* Global stylesheet or specific component CSS */
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  width: 0; /* Safari and Chrome */
+  height: 0; /* Safari and Chrome */
+}
